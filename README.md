@@ -1,6 +1,5 @@
 # CV
 
-<!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
@@ -272,6 +271,24 @@ button:hover {
         mengembangkan kemampuan diri.
       </p>
     </div>
+    
+<div class="section">
+  <h2>Hobi Saya</h2>
+
+  <div class="hobby-list">
+
+    <div class="bermain game">
+      <img src="ml.jpg" alt="Gaming">
+      <span>MOBILE LEGEND</span>
+    </div>
+
+    <div class="menonton anime">
+      <img src="akashic.jpg" alt="Anime">
+      <span>Akashic Records of Bastard Magic Instructor (Rokudenashi Majutsu Koushi to Akashic Records) include:</span>
+    </div>
+
+  </div>
+</div>
 
     <div class="section">
       <h2>Musik Favorit</h2>
