@@ -1,1 +1,332 @@
 # CV
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080808;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 440px;
+  background: linear-gradient(145deg, #1b1b1b, #101010);
+  border: 1px solid #303030;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 25px 80px #000;
+  animation: muncul 0.8s ease;
+}
+
+@keyframes muncul {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cover {
+  height: 170px;
+  background:
+    radial-gradient(circle at 20% 20%, #555 0, transparent 35%),
+    linear-gradient(135deg, #292929, #090909);
+  position: relative;
+}
+
+.cover::after {
+  content: "PERSONAL WEBSITE";
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #888;
+}
+
+.content {
+  padding: 0 25px 25px;
+  margin-top: -65px;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  object-fit: cover;
+  border: 3px solid #222;
+  background: #333;
+}
+
+.name h1 {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.name p {
+  font-size: 12px;
+  color: #999;
+}
+
+.badge {
+  display: inline-block;
+  background: #262626;
+  color: #bbb;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.section {
+  background: #191919;
+  border: 1px solid #292929;
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.section h2 {
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #292929;
+  font-size: 13px;
+}
+
+.info:last-child {
+  border-bottom: none;
+}
+
+.label {
+  color: #888;
+}
+
+.value {
+  text-align: right;
+}
+
+.about {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.music {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.music-icon {
+  width: 48px;
+  height: 48px;
+  background: #292929;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.music-info {
+  flex: 1;
+}
+
+.music-info h3 {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.music-info p {
+  font-size: 11px;
+  color: #888;
+}
+
+button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  color: #111;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.08);
+  background: #ccc;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+  font-size: 11px;
+  border-top: 1px solid #252525;
+}
+
+@media (max-width: 380px) {
+  .content {
+    padding: 0 16px 20px;
+  }
+
+  .name h1 {
+    font-size: 21px;
+  }
+
+  .avatar {
+    width: 85px;
+    height: 85px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="cover"></div>
+
+  <div class="content">
+
+    <div class="profile">
+      <img src="yinix.jpg"
+           alt="Foto profil"
+           class="avatar">
+
+      <div class="name">
+        <h1>Aditya idris</h1>
+        <p>Personal Profile</p>
+        <span class="badge">● Online</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Data Diri</h2>
+
+      <div class="info">
+        <span class="label">Nama</span>
+        <span class="value">Aditya idris</span>
+      </div>
+
+      <div class="info">
+        <span class="label">Umur</span>
+        <span class="value">17 Tahun</span>
+      </div>
+
+      <div class="info">
+        <span class="label">Alamat</span>
+        <span class="value">Panyabungan 3</span>
+      </div>
+
+      <div class="info">
+        <span class="label">Hobi</span>
+        <span class="value">Gaming, Musik</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Tentang Saya</h2>
+      <p class="about">
+        Halo! Saya menyukai teknologi, musik, dan dunia
+        digital. Saya senang mempelajari hal baru dan
+        mengembangkan kemampuan diri.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Musik Favorit</h2>
+
+      <div class="music">
+        <div class="music-icon">♫</div>
+
+        <div class="music-info">
+          <h3>18-one direction</h3>
+          <p id="status">Siap diputar</p>
+        </div>
+
+        <button id="playBtn">▶</button>
+      </div>
+
+      <audio id="audio" loop>
+        <source src="18.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 — MY PERSONAL WEBSITE
+  </div>
+
+</div>
+
+<script>
+const audio = document.getElementById("audio");
+const button = document.getElementById("playBtn");
+const status = document.getElementById("status");
+
+button.addEventListener("click", async () => {
+  if (audio.paused) {
+    try {
+      await audio.play();
+    } catch {
+      status.textContent = "File musik tidak ditemukan";
+    }
+  } else {
+    audio.pause();
+  }
+});
+
+audio.addEventListener("play", () => {
+  button.textContent = "Ⅱ";
+  status.textContent = "Sedang diputar";
+});
+
+audio.addEventListener("pause", () => {
+  button.textContent = "▶";
+  status.textContent = "Dijeda";
+});
+</script>
+
+</body>
+</html>
