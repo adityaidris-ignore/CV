@@ -276,7 +276,7 @@ button:hover {
   <div class="hobby-list">
 
     <div class="bermain game">
-      <img src="ml.jpg" alt="Gaming">
+      <img src="MOBILE LEGEND.jpg" alt="Gaming">
       <span>MOBILE LEGEND</span>
     </div>
 
