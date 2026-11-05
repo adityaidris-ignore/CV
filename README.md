@@ -264,8 +264,8 @@ button:hover {
     <div class="section">
       <h2>Tentang Saya</h2>
       <p class="about">
-        Halo! Saya menyukai teknologi, musik, anime, game dan dunia
-        digital. Saya senang mempelajari hal baru dan
+        Halo! Saya menyukai teknologi,musik,anime,game dan dunia
+        digital.Saya senang mempelajari hal baru dan
         mengembangkan kemampuan diri.
       </p>
     </div>
